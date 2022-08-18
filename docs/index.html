@@ -50,7 +50,7 @@
         let htmlString = '';
         for (let file of data) {
           if (file.type === 'dir'){
-		    htmlString += `<a href="${file.path}" class="slide">${file.name.replace(/-/g, ' ').replace(/^0/, '')}</a>`;
+		    htmlString += `<a href="${file.path.replace(/[^\/]+\//, '')}" class="slide">${file.name.replace(/-/g, ' ').replace(/^0/, '')}</a>`;
           }
         }
         document.getElementById('slides').innerHTML += htmlString;
