@@ -17,6 +17,6 @@
   "legacyEditor": false,
   "livePreview": true,
   "useMarkdownLinks": false,
-  "attachmentFolderPath": "./_attachments",
+  "attachmentFolderPath": "./attachments",
   "userIgnoreFilters": null
 }
