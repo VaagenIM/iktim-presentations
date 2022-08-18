@@ -5,7 +5,7 @@ authors:
   - Sondre Grønås
 created: 2022-08-18 12:39:53
 updated: 2022-08-18 12:40:18
-css: css/presentable-code.css
+css: css/presentable.css
 ---
 # Hello World! 🚀
 <!-- slide bg="[[lines-of-code-2653362.png]]"-->

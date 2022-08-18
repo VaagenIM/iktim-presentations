@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
 	<link rel="stylesheet" href="css/layout.css" />
 	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+	<link rel="stylesheet" href="plugin/chalkboard/style.css">
 
-    <link rel="stylesheet" href="css/presentable-code.css" />
+    <link rel="stylesheet" href="css/presentable.css" />
 
     <script defer src="dist/fontawesome/all.min.js"></script>
 
@@ -128,7 +129,7 @@ for student in students:
 - Vi tar kanskje turen innom JavaScript<!-- .element: class="fragment" -->
 - Databaser, APIer, GitHub<!-- .element: class="fragment" -->
 - Liker du et annet språk? Fint!<!-- .element: class="fragment" -->
-</script></section><section  data-markdown><script type="text/template"><!-- .slide: data-background-opacity=".2" data-background-image="pexels/godot-2d-bg.png" -->
+</script></section><section  data-markdown><script type="text/template"><!-- .slide: data-background-opacity=".2" data-background-image="22-23/01-Hello-World/attachments/godot-2d-bg.png" -->
 ## Spillutvikling
 - 2D spillutvikling i Godot<!-- .element: class="fragment" -->
 - Kan ikke love for mye<!-- .element: class="fragment" -->
@@ -167,7 +168,7 @@ Viktige lover og regelverk<!-- .element: class="fragment" -->
 </script></section><section  data-markdown><script type="text/template">## Denne?
 <p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="22-23/01-Hello-World/attachments/cookies-privacy-3.png" alt="" style="width: 600px"></img></p>
 
-</script></section><section  data-markdown><script type="text/template"><!-- .slide: data-background-image="pexels/github-bg.png" -->
+</script></section><section  data-markdown><script type="text/template"><!-- .slide: data-background-image="22-23/01-Hello-World/attachments/github-bg.png" -->
 ## GitHub Classroom
 Vi bruker GitHub for innleveringer av kode
 - Bransjestandard<!-- .element: class="fragment" -->
@@ -193,6 +194,7 @@ Vi bruker GitHub for innleveringer av kode
 	<script src="plugin/chart/chart.min.js"></script>
 	<script src="plugin/chart/plugin.js"></script>
 	<script src="plugin/customcontrols/plugin.js"></script>
+	<script src="plugin/chalkboard/plugin.js"></script>
 
     <script>
       function extend() {
@@ -247,6 +249,7 @@ Vi bruker GitHub for innleveringer av kode
 		  RevealMermaid,
 		  RevealChart,
 		  RevealCustomControls,
+		  RevealChalkboard, 
         ],
 
 		mathjax3: {
@@ -255,6 +258,14 @@ Vi bruker GitHub for innleveringer av kode
 
 		customcontrols: {
 			controls: [
+				{ icon: '<i class="fa fa-pen-square"></i>',
+				title: 'Toggle chalkboard (B)',
+				action: 'RevealChalkboard.toggleChalkboard();'
+				},
+				{ icon: '<i class="fa fa-pen"></i>',
+				title: 'Toggle notes canvas (C)',
+				action: 'RevealChalkboard.toggleNotesCanvas();'
+				},
 			]
 		},
       };
