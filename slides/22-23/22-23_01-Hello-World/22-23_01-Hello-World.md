@@ -22,10 +22,10 @@ for student in students:
 
 ---
 ## Yrke i stadig endring
-- Ingen bøker
-- Vi gjør det som føles aktuelt
-- Følg med på nett, YouTube, NRKBeta, osv.
-- Kom gjerne med innspill til tema
+- Ingen bøker<!-- .element: class="fragment" -->
+- Vi gjør det som føles aktuelt<!-- .element: class="fragment" -->
+- Følg med på nett, YouTube, NRKBeta, osv.<!-- .element: class="fragment" -->
+- Kom gjerne med innspill til tema<!-- .element: class="fragment" -->
 
 ---
 # Planen for skoleåret
@@ -33,50 +33,50 @@ for student in students:
 ---
 <!-- slide bg="[[black-and-gray-computer-motherboard-2588757.jpeg]]" data-background-opacity=".2" -->
 ## Data & Teknologi
-- Hvordan fungerer ting, egentlig?
-- Linux
-- Servere
-- Containerisering
-- Hacking
-- Gaming
+- Hvordan fungerer ting, egentlig?<!-- .element: class="fragment" -->
+- Linux<!-- .element: class="fragment" -->
+- Servere<!-- .element: class="fragment" -->
+- Containerisering<!-- .element: class="fragment" -->
+- Hacking<!-- .element: class="fragment" -->
+- Gaming<!-- .element: class="fragment" -->
 
 ---
 <!-- slide bg="[[network-servers-on-an-enclosure-6466141.jpeg]]" data-background-opacity=".2" -->
 ## Nettverk
-- Hva er internett?
-- Hva og hvor er "skya"?
+- Hva er internett?<!-- .element: class="fragment" -->
+- Hva og hvor er "skya"?<!-- .element: class="fragment" -->
 
 ---
 <!-- slide bg="[[macbook-pro-displaying-website-version-2-on-table-285814.webp]]" data-background-opacity=".3" -->
 ## Webutvikling
-- HTML
-- CSS
-- UI / UX
-- JavaScript(?)
-- Wordpress
+- HTML<!-- .element: class="fragment" -->
+- CSS<!-- .element: class="fragment" -->
+- UI / UX<!-- .element: class="fragment" -->
+- JavaScript(?)<!-- .element: class="fragment" -->
+- Wordpress<!-- .element: class="fragment" -->
 
 ---
 <!-- slide bg="[[a-person-doing-computer-programming-7988086.jpeg]]" data-background-opacity=".1" -->
 ## Programmering
-- Primærspråk blir Python
-- Vi tar kanskje turen innom JavaScript
-- Databaser, APIer, GitHub
-- Liker du et annet språk? Fint!
+- Primærspråk blir Python<!-- .element: class="fragment" -->
+- Vi tar kanskje turen innom JavaScript<!-- .element: class="fragment" -->
+- Databaser, APIer, GitHub<!-- .element: class="fragment" -->
+- Liker du et annet språk? Fint!<!-- .element: class="fragment" -->
 
 ---
 <!-- slide bg="[[godot-2d-bg.png]]" data-background-opacity=".2" -->
 ## Spillutvikling
-- 2D spillutvikling i Godot
-- Kan ikke love for mye
+- 2D spillutvikling i Godot<!-- .element: class="fragment" -->
+- Kan ikke love for mye<!-- .element: class="fragment" -->
 
 ---
 <!-- slide bg="[[blue-bright-lights-373543.jpeg]]" data-background-opacity=".1" -->
 ## Masse nye, spennende ting
-- AI (Kunstig intelligens)
-- 5G nettverk
-- Blockchain, crypto
-- Smarte hjem
-- VR & AR
+- AI (Kunstig intelligens)<!-- .element: class="fragment" -->
+- 5G nettverk<!-- .element: class="fragment" -->
+- Blockchain, crypto<!-- .element: class="fragment" -->
+- Smarte hjem<!-- .element: class="fragment" -->
+- VR & AR<!-- .element: class="fragment" -->
 
 ---
 ## GauGAN2
@@ -100,9 +100,9 @@ Tenk på det...
 ---
 <!-- slide bg="[[white-caution-cone-on-keyboard-211151.png]]" data-background-opacity=".1" -->
 ## Kjedelig teori
-Viktige lover og regelverk
-- GDPR (Personvernforordningen)
-- Personvern, personvern, personvern
+Viktige lover og regelverk<!-- .element: class="fragment" -->
+- GDPR (Personvernforordningen)<!-- .element: class="fragment" -->
+- Personvern, personvern, personvern<!-- .element: class="fragment" -->
 
 ---
 ## Er dette lov?
@@ -120,10 +120,10 @@ Viktige lover og regelverk
 <!-- slide bg="[[github-bg.png]]" -->
 ## GitHub Classroom
 Vi bruker GitHub for innleveringer av kode
-- Bransjestandard
-- Eid av Microsoft
-- Ikke så vennlig læringskurve..
-- Registrering kommer vi til (i Teams)
+- Bransjestandard<!-- .element: class="fragment" -->
+- Eid av Microsoft<!-- .element: class="fragment" -->
+- Ikke så vennlig læringskurve..<!-- .element: class="fragment" -->
+- Registrering kommer vi til (i Teams)<!-- .element: class="fragment" -->
 
 ---
 ## Digital fagbok
