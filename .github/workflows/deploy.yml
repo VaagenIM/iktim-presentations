@@ -22,7 +22,6 @@ jobs:
         run: |
           npm install --no-optional reveal-md
           mkdir build
-          cp -r img build/
           find slides/ -name "*.md" -print0 | sort -rz | while read -d $'\0' f; do ./node_modules/.bin/reveal-md --static build "$f" ; done
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
