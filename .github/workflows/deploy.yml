@@ -20,7 +20,7 @@ jobs:
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
       - name: Install and Build 🔧
         run: |
-          npm install --omit=optional reveal-md
+          npm install --no-optional reveal-md
           mkdir _static
           reveal-md slides/ --static --glob '!(.obsidian|_cfg)/*.md'
       - name: Deploy 🚀
