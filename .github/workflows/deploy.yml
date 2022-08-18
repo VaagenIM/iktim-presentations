@@ -20,12 +20,12 @@ jobs:
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
       - name: Install and Build 🔧
         run: |
-          npm install --no-optional reveal-md
-          mkdir build
-          find slides/ -name "*.md" -print0 | sort -rz | while read -d $'\0' f; do ./node_modules/.bin/reveal-md --static build "$f" ; done
+          npm install --omit=optional reveal-md
+          mkdir _static
+          reveal-md slides/ --static --glob '!(.obsidian|_cfg)/*.md'
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: build
+          FOLDER: _static
