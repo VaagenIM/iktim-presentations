@@ -1,0 +1,9 @@
+.vault-stats
+.trash/
+
+*.bib
+*.DS_Store
+.DS_Store
+.cache
+
+workspace
