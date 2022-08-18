@@ -7,7 +7,7 @@ created: 2022-08-18 12:39:53
 updated: 2022-08-18 12:40:18
 ---
 # Hello World! 🚀
-<!-- slide bg="[[lines-of-code-2653362.png]]"-->
+<!-- slide bg="../../pexels/lines-of-code-2653362.png"-->
 ```python
 teachers = [
 	'Sondre Grønås',

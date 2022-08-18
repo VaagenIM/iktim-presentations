@@ -9,7 +9,7 @@
   "newFileLocation": "current",
   "showFrontmatter": false,
   "spellcheck": false,
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "relative",
   "foldIndent": false,
   "showLineNumber": false,
   "autoConvertHtml": true,
