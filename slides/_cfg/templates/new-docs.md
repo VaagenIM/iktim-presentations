@@ -12,7 +12,7 @@ authors:
   - Sondre Grønås
 created: <%tp.file.creation_date("YYYY-MM-DD HH:mm:ss")%>
 updated: <%tp.date.now("YYYY-MM-DD HH:mm:ss")%>
-css: "css/presentable-code.css"
+css: "css/presentable.css"
 ---
 # <%* tR += `${title}` %>
 <% tp.file.cursor() %>
