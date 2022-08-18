@@ -22,7 +22,7 @@ jobs:
         run: |
           npm install --omit=optional reveal-md
           mkdir _static
-          ./node_modules/.bin/reveal-md ./slides/22-23/22-23_01-Hello-World.md --static
+          ./node_modules/.bin/reveal-md "./slides/22-23/22-23_01-Hello-World.md" --static
           # ./node_modules/.bin/reveal-md slides/ --static
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
