@@ -114,6 +114,16 @@ Formfaktor, utseendet, sørg for at ting passer (pcpartpicker)
 - Rack = monteres i skap<!-- .element: class="fragment" -->
 
 ---
+# PSU
+<!-- slide bg="[[technology-computer-lines-board-50711.jpg]]" data-background-opacity=".2"-->
+Strømforsyning, fra vegg til komponent
+- Må ha nok strøm, 550W er minimum i 2022<!-- .element: class="fragment" -->
+- Ha litt hoderom, bedre med for mye enn for lite<!-- .element: class="fragment" -->
+- Noen strømforsyninger er mer bærekraftige enn andre, dvs. de sløser mindre strøm<!-- .element: class="fragment" -->
+- Gold rating eller høyere er bra for miljøet<!-- .element: class="fragment" -->
+- Modulær strømforsyning er bra, dvs pluggene kan tas ut, kontra ketchup og sennepskabler<!-- .element: class="fragment" -->
+
+---
 # Dill og dall (Periferi)
 <!-- slide bg="[[macbook-pro-displaying-website-version-2-on-table-285814.webp]]" data-background-opacity=".2"-->
 RGB, kjøling, vifter, tastatur, mus, skjerm, cablemods?
