@@ -1,7 +1,9 @@
 # Iktim Presentations
 Open source presentations from Vågen IM (https://docs.iktim.no).
 
-Written using [Obsidian](https://obsidian.md) using the [Advanced Slides](https://github.com/MSzturc/obsidian-advanced-slides) plugin.
+Made using https://slides.com/. Exported slides get converted to offline copies by dragging & dropping them onto `scrape-export.bat`
+
+Scraping script: https://github.com/sondregronas/slides-scraper-cli
 
 ## Authors
 - @sondregronas
