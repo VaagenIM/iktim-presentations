@@ -1,3 +1,5 @@
+"""Source project: https://github.com/sondregronas/slides-scraper-cli"""
+
 import re
 import os
 import sys
