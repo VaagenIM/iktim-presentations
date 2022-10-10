@@ -19,6 +19,9 @@ Usage:
 input = sys.argv[1]
 output = sys.argv[2]
 
+COMPRESS = False  # Not implemented
+COMP_TRESHOLD = 1048576  # 1MB
+IGNORE_COMPRESSED_FORMATS = ['.gif']
 FOLDER = "attachments/"
 FALLBACK_EXT = 'jpg'
 
@@ -51,9 +54,8 @@ def scan_images(content: str) -> list[Any]:
     return [[url, get_filename(url)] for url in images]
 
 
-def compress_image(fn: str, max_size: int = 1048576) -> None:
-    # max_size = 1MB
-    if Path(fn).suffix == '.gif':
+def compress_image(fn: str, max_size: int = COMP_TRESHOLD) -> None:
+    if Path(fn).suffix in IGNORE_COMPRESSED_FORMATS:
         print(f'Skipping compression of {Path(fn).suffix} ({fn})')
         return
 
@@ -68,13 +70,8 @@ def compress_image(fn: str, max_size: int = 1048576) -> None:
 def download_tuples(tuples: list[Any], compress: bool = False) -> None:
     for url, fn in tuples:
         Path(fn).parent.mkdir(exist_ok=True, parents=True)
-        if Path(fn).is_file():
-            continue
-
-        urlretrieve(url, fn)
-        if compress:
-            compress_image(fn)
-
+        if not Path(fn).is_file():
+            urlretrieve(url, fn)
 
 
 def update_content(content: str, tuples: list[Any]) -> str:
@@ -84,6 +81,9 @@ def update_content(content: str, tuples: list[Any]) -> str:
 
 
 if __name__ == '__main__':
+    if not input.lower().endswith('.html') or not output.lower().endswith('.html'):
+        raise RuntimeError("Invalid filetypes")
+
     # Read the input html contents and store it
     content = open(input, 'r').read()
 
@@ -95,6 +95,10 @@ if __name__ == '__main__':
 
     # Download images from the url/filename pairs in a folder named "attachments"
     download_tuples(abs_pairs)
+
+    # Compress images
+    if COMPRESS:
+        [compress_image(fn) for _, fn in abs_pairs]
 
     # Update links
     content = update_content(content, pairs)
