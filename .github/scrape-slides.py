@@ -35,6 +35,11 @@ def get_unsplash_filetype(url: str) -> str:
 
 def get_filename(url: str, folder: str = FOLDER, def_ext: str = FALLBACK_EXT) -> str:
     p = Path(urlparse(url).path)
+
+    # Giphy gifs
+    for name, ext in re.findall(r'giphy\.com/media/(.+)/[^.]+(.+)$', url):
+        return f'{folder}{name}{ext}'
+
     if p.suffix:
         return f'{folder}{p.name}'
 
