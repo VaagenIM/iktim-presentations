@@ -1,4 +1,6 @@
 @echo off
+pip install pillow
+
 set src_folder=originals\
 set dest_folder=docs\slides\
 
