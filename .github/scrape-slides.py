@@ -21,7 +21,7 @@ input = sys.argv[1]
 output = sys.argv[2]
 
 COMPRESS = True  # Not implemented
-COMP_TRESHOLD = 1048576  # 1MB
+COMP_TRESHOLD = 800000  # ~800KB
 QUALITY = 90
 MAX_RESOLUTION = [1920, 1080]
 IGNORE_COMPRESSED_FORMATS = ['.webm']
